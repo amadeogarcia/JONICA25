@@ -18,6 +18,12 @@ GPIO.setup(GO_PIN, GPIO.OUT)
 GPIO.output(STOP_PIN, 0)
 GPIO.output(GO_PIN, 0)
 
+
+#pip install ultralytics # la version que nos funciono es 8.3.203, ojo que esta actualiza numpy y scipy, correrla primero y despues las otras
+#pip install --upgrade numpy==1.23.5
+#pip install --upgrade scipy==1.10.1
+# aumentar a 2048 la memoria swap si la raspi de 1gb de ram se tilda.
+
 # -----------------------------
 # Configurar YOLO (NCNN)
 # -----------------------------
